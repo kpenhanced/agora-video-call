@@ -1,0 +1,34 @@
+{
+  "name": "agora-video-call",
+  "version": "1.0.0",
+  "description": "Agora Video Call Web App",
+  "main": "app.js",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "joi": "^14.3.1",
+    "live-server": "^1.2.1",
+    "lodash": "^4.17.20",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "server": "live-server --port=8080",
+    "dev": "nodemon app.js"
+  },
+  "author": "Karthik Ashokkumar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpenhanced/agora-video-call.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kpenhanced/agora-video-call/issues"
+  },
+  "homepage": "https://github.com/kpenhanced/agora-video-call#readme"
+}
